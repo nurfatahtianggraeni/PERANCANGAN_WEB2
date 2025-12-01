@@ -1,0 +1,70 @@
+/* Gaya umum */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Kotak login */
+.login-box {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  width: 350px;
+  text-align: center;
+}
+
+/* Judul login */
+.login-box h2 {
+  color: #3c91e6;
+  margin-bottom: 25px;
+}
+
+/* Input */
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* Tombol login */
+.login-box button {
+  width: 100%;
+  background-color: #3c91e6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background-color: #347dc7;
+}
+
+/* Label */
+.login-box label {
+  font-weight: 600;
+  float: left;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Footer kecil */
+.login-box p {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #777;
+}
